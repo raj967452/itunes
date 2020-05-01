@@ -1,0 +1,15 @@
+@import './scss/variables.scss';
+.App-logo {
+  height: 7vmax;
+  pointer-events: none;
+  padding: 1rem 2rem;
+}
+.App-header {
+  background: $white-bg-color;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(5px + 2vmin);
+  color: white;
+}

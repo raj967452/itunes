@@ -1,0 +1,45 @@
+@import "../../scss/variables";
+
+.search-wrapper {
+    width: 85vw;
+    .search-bar {
+        padding: 2rem 2rem 0.5rem;
+
+        input {
+            width: calc(80vw - 4rem);
+            padding: 0.75rem 1rem;
+            border: 1px solid $gray-border-color;
+            background: $white-bg-color;
+            font-size: calc(5px + 2vmin);
+            color: $dark-font-color;
+            font-weight: 400;
+        }
+    }
+}
+
+.sorter {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    li {
+        list-style: none;
+
+        a {
+            padding: 1rem 1.5rem;
+            text-decoration: none;
+            color: $link-color;
+            text-transform: uppercase;
+            display: block;
+            border-bottom: 2px solid $link-color;
+
+            &.active,
+            &:hover {
+                color: $link-active-color;
+                border-bottom: 2px solid $link-active-color;
+            }
+        }
+    }
+}

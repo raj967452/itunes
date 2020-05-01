@@ -1,0 +1,10 @@
+@import '../../scss/variables.scss';
+
+.no-results {
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top: 10%;
+    color: $light-gray-color;
+    text-transform: uppercase;
+  }
